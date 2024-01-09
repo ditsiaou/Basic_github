@@ -1,0 +1,256 @@
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~ (master)
+$ git --version
+git version 2.38.1.windows.1
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~ (master)
+$ git config --global user.name ditsiaou
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~ (master)
+$ git config user.name ditsiaou
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~ (master)
+$ cd ..
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 /c/Users
+$ cd
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~ (master)
+$ pwd
+/c/Users/ditsi
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~ (master)
+$ cd Do
+Documents/ Downloads/
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~ (master)
+$ cd Documents/
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Documents (master)
+$ cd ..
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~ (master)
+$ pwd
+/c/Users/ditsi
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~ (master)
+$ cd 2024
+bash: cd: 2024: No such file or directory
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~ (master)
+$ cd 2023
+bash: cd: 2023: No such file or directory
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~ (master)
+$ cd Desktop/
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop (master)
+$ cd ΔΙΔΑΚΤΟΡΙΚΟ/
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ (master)
+$ ψδ 2024
+bash: ψδ: command not found
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ (master)
+$ cd 2024
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024 (master)
+$ mkdir github
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024 (master)
+$ cd github/
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github (master)
+$ mkdir git-one
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github (master)
+$ cd git-one/
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git init
+Initialized empty Git repository in C:/Users/ditsi/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one/.git/
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ touch index.html
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git add index.html
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git rm --cached index.html
+rm 'index.html'
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git add .
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git commit -m 'upload a trial file named index.html'
+[master (root-commit) b9fb016] upload a trial file named index.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git log
+commit b9fb0162252d1a992280488a35734f921afe812b (HEAD -> master)
+Author: ditsiaou <ditsiaou@physics.auth.gr>
+Date:   Tue Jan 9 23:09:40 2024 +0200
+
+    upload a trial file named index.html
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ pwd
+/c/Users/ditsi/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git log --oneline
+b9fb016 (HEAD -> master) upload a trial file named index.html
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git config --global user.email ditsiaou@outlook.com.gr
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ mkdir github
+mkdir: cannot create directory ‘github’: No such file or directory
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one
+$ cd ..
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github (master)
+$ cd ..
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024 (master)
+$ mkdir github
+mkdir: cannot create directory ‘github’: File exists
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024 (master)
+$ cd github/
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github (master)
+$ mkdir git-one
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github (master)
+$ cd git-one/
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git init
+Initialized empty Git repository in C:/Users/ditsi/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one/.git/
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ touch index.html
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git commit -m 'upload a trial file named index.html'
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git add index.html
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git commit -m 'upload a trial file named index.html'
+[master (root-commit) 8004edc] upload a trial file named index.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git log
+commit 8004edc863853913ea6c7738adc611ad09579278 (HEAD -> master)
+Author: ditsiaou <ditsiaou@outlook.com.gr>
+Date:   Tue Jan 9 23:24:07 2024 +0200
+
+    upload a trial file named index.html
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git log --oneline
+8004edc (HEAD -> master) upload a trial file named index.html
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git remote add origin https://github.com/ditsiaou/Basic_github.git
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 229 bytes | 76.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ditsiaou/Basic_github.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+(base)
+ditsi@LAPTOP-U1G4HBKM MINGW64 ~/Desktop/ΔΙΔΑΚΤΟΡΙΚΟ/2024/github/git-one (master)
+$
